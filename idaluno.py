@@ -27,7 +27,7 @@ class idaluno(idendereço  ):
        self.notas = notas
 
     def __str__(self):
-       return f"name: {self.nome}\nidade: {self.idade}\nnotas: {self.notas}"
+       return f"nome: {self.nome}\nidade: {self.idade}\nnotas: {self.notas}"
 
 
 aluno = idaluno("Nandson", "23", "amelia", "0000000", "00")
