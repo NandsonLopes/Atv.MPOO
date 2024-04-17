@@ -30,5 +30,5 @@ class idaluno(idendereço  ):
        return f"name: {self.name}\nage: {self.age}\ngrades: {self.grades}"
 
 
-aluno = idaluno("Nandson")
+aluno = idaluno("Nandson", "23", "amelia", "0000000", "00")
 print(aluno)
