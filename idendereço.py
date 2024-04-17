@@ -19,5 +19,5 @@ class idendereço  :
     def __str__(self):
        return f"rua: {self.rua}\nnum: {self.num}\ncep:{self.cep}"
     
-endereço = idendereço  ("rua", 00, )
+endereço = idendereço  ("rua", "00","5556000" )
 print(endereço)
